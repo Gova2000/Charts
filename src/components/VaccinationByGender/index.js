@@ -4,7 +4,6 @@ import './index.css'
 
 const VaccinebyGender = props => {
   const {GenderVaccine} = props
-  const {gender, count} = GenderVaccine
 
   return (
     <ResponsiveContainer width="100%" height={300}>
