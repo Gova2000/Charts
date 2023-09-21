@@ -4,7 +4,7 @@ import {PieChart, Pie, Legend, Cell, ResponsiveContainer} from 'recharts'
 
 const VaccinebyAge = props => {
   const {AgeVaccine} = props
-  const {count, age} = AgeVaccine
+  
   return (
     <ResponsiveContainer width="100%" height={300}>
       <PieChart>
