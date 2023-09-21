@@ -12,7 +12,7 @@ import './index.css'
 
 const VaccinebyCoverage = props => {
   const {vaccineList} = props
-  const {vaccineDate, dose1, dose2} = vaccineList
+  
 
   const DataFormatter = number => {
     if (number > 1000) {
