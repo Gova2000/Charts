@@ -12,7 +12,6 @@ import './index.css'
 
 const VaccinebyCoverage = props => {
   const {vaccineList} = props
-  
 
   const DataFormatter = number => {
     if (number > 1000) {
@@ -45,8 +44,8 @@ const VaccinebyCoverage = props => {
             padding: 30,
           }}
         />
-        <Bar dataKey="boys" name="Dose1" fill="#5a8dee" barSize="20%" />
-        <Bar dataKey="girls" name="Dose2" fill="#f54394" barSize="20%" />
+        <Bar dataKey="dose1" name="Dose1" fill="#5a8dee" barSize="20%" />
+        <Bar dataKey="dose2" name="Dose2" fill="#f54394" barSize="20%" />
       </BarChart>
     </ResponsiveContainer>
   )
