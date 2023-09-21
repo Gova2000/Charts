@@ -41,7 +41,7 @@ class CowinDashboard extends Component {
 
   get = () => {
     const {vaccineList, GenderVaccine, AgeVaccine} = this.state
-
+    console.log(GenderVaccine)
     return (
       <div>
         <div>
@@ -54,7 +54,9 @@ class CowinDashboard extends Component {
         <h1>Cowin Vaccination in India</h1>
 
         <VaccinebyCoverage vaccineList={vaccineList} />
+
         <VaccinebyGender GenderVaccine={GenderVaccine} />
+
         <VaccinebyAge AgeVaccine={AgeVaccine} />
       </div>
     )
